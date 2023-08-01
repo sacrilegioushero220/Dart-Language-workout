@@ -1,5 +1,6 @@
-import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
+import 'dart:math';
 
-void main(List<String> arguments) {
-  print('Hello world: ${dart_application_1.calculate()}!');
+void main() {
+  print(sin(45 * pi / 180));
+  print(1 / sqrt(2));
 }
